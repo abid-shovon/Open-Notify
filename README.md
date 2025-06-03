@@ -15,7 +15,7 @@ It helps users to monitor if their laptop has been turned on and at what time.
 
 ---
 
-## ✅ Step-by-Step Installation for Linux
+##  Step-by-Step Installation for Linux
 
 ### 1. Make Sure Python Works
 
