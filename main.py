@@ -9,7 +9,7 @@ password = "zdky yvzu uqvj tsfy"
 now = datetime.now()
 time_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
-subject = "Laptop Alert: Laptop is Open"
+subject = "Laptop Alert: Shovon someone is open your laptop."
 body = f"Your laptop is open now.\nTime: {time_str}"
 
 msg = MIMEText(body)
