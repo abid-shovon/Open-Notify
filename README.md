@@ -20,7 +20,7 @@ It helps users to monitor if their laptop has been turned on and at what time.
 
 ### 1. Make Sure Python Works
 
-#### Check if Python 3 is installed: 
+### Check if Python 3 is installed: 
 
 which python3
 
@@ -28,7 +28,7 @@ which python3
 
 ### 2nd step: 
 
-#### Create a new systemd service file:
+### Create a new systemd service file:
 
 sudo nano /etc/systemd/system/laptop-notify.service
 
@@ -74,7 +74,7 @@ WantedBy=multi-user.target
 sudo nano /lib/systemd/system-sleep/laptop-wake.sh
 
 
-#### Write this content:
+### Write this content:
 
 #!/bin/bash
 
@@ -114,7 +114,7 @@ sudo systemctl enable laptop-notify.service
 
 ### For Testing
 
-#### Reboot your system:
+### Reboot your system:
 
 sudo reboot
 
@@ -128,7 +128,7 @@ sudo systemctl disable laptop-notify.service
 
 
 
-#### Remove Service and Hook Script:
+### Remove Service and Hook Script:
 
 sudo rm /etc/systemd/system/laptop-notify.service
 
@@ -136,6 +136,6 @@ sudo rm /lib/systemd/system-sleep/laptop-wake.sh
 
 
 
-#### Reload systemd:
+### Reload systemd:
 
 sudo systemctl daemon-reload
