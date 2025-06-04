@@ -1,19 +1,14 @@
 [Unit]
-
 Description=Send email when laptop starts or wakes up
-
 After=network-online.target
-
 Wants=network-online.target
-
 StartLimitIntervalSec=0
 
+
 [Service]
-
 Type=oneshot
-
 ExecStart=/usr/bin/python3 /home/hasan/Desktop/projects_of_python/open_notify/main.py
 
-[Install]
 
+[Install]
 WantedBy=multi-user.target
