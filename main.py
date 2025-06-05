@@ -4,7 +4,7 @@ from datetime import datetime
 
 sender_email = "abidshovon945@gmail.com"
 receiver_email = "shovonhasan333@gmail.com"
-password = "zdky yvzu uqvj tsfy"
+password = "---- ---- ---- ----"    # Use 16 digit gmail app password. Ex: "zskc yvlo uevj tafm"
 
 now = datetime.now()
 time_str = now.strftime("%Y-%m-%d %H:%M:%S")
